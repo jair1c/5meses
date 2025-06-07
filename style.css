@@ -220,7 +220,7 @@ html {
 
 @media (max-width: 480px) {
   .galeria-item img {
-    height: 180px;
+    height: 280px;
   }
 }
 
@@ -324,7 +324,7 @@ html {
 
 /* Corazón que late */
 .heart-container {
-  margin: 30px 0;
+  margin: 50px 0;
 }
 
 .heart {
