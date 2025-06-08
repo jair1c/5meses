@@ -69,3 +69,17 @@ sorpresaBtn.addEventListener('click', () => {
   sorpresaContent.classList.add('show');
   sorpresaBtn.style.display = 'none';
 });
+
+
+
+const startBtn = document.getElementById("startButton");
+const music = document.getElementById("bgMusic");
+const intro = document.getElementById("introOverlay");
+
+  startBtn.addEventListener("click", () => {
+    music.play();
+    intro.style.opacity = "0";
+    setTimeout(() => {
+      intro.style.display = "none";
+    }, 800);
+  });
