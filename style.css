@@ -220,7 +220,7 @@ html {
 
 @media (max-width: 480px) {
   .galeria-item img {
-    height: 320px;
+    height: 280px;
   }
 }
 
